@@ -102,5 +102,4 @@ def run_multi_violation_audit(file_path: str, target_year: int = 2021):
 # TRIGGER ENGINE RUN
 # ==========================================
 if __name__ == "__main__":
-    target_database = r"C:\Users\hp\Contacts\Desktop\SL_DB\DPO#2.csv"
     run_multi_violation_audit(target_database, target_year=2021 )
